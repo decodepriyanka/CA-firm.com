@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style type="text/css">
+	body{
+		overflow: hidden;
+	}
+	.carousel-caption{
+		position: absolute;
+		text-align: center;
+		z-index: 11;
+		top:360px;
+	}
+
+	.carousel-item img{
+		height: 100vh ; 
+		width: 100%;
+	}
+	@media screen (max-width: 840px){
+		body{
+	width: 100%;
+
+		}
+	}
+a.dropDown{top:600px; height:23px; margin-left:-20px; left:50%; position:absolute; width:41px; z-index:3}
+a.dropDown {background:url(dropArrow.png) 0 0 no-repeat; display:block;}
+a.dropDown:hover{ background:url(dropArrowhover.png) 0 0 no-repeat; cursor: pointer;}
+
+</style>
+</head>
+<body>
+<div id="carouselExampleSlidesOnly" class="carousel " data-ride="carousel" data-interval="2500">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="ca-firm-chennai.jpg" alt="First slide" >
+      <div class="carousel-caption">
+      			<figure>
+				<h1 style="font-size: 50px;color: #fff; font-weight:bolder; z-index: 2;">Prashant Maurya &amp; Associates</h1>
+						<figcaption>
+				<p  style="font-size: 20px;">7 years <strong>of Excellence</strong>, We Vision to shape a new standard in the <strong>deliverance of services</strong>.</p>
+					</figcaption>
+				</figure>
+
+
+      </div>
+       <a href="javascript:void(0);" class="dropDown" data-target="mainBlock"></a>
+
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="accounting-firm.jpg" alt="Second slide"  >
+                  <div class="carousel-caption">	
+
+			<figure>
+				<h1 style="font-size: 50px;color: #fff; font-weight:bolder;">Prashant Maurya &amp; Associates</h1>
+
+					<figcaption>
+					<p  style="font-size: 20px;">Your Success / our Business .</p>
+					</figcaption>
+					</figure>
+
+
+      </div>
+       <a href="javascript:void(0);" class="dropDown" data-target="mainBlock"></a>
+
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="auditing-services.jpg" alt="Third slide">
+            <div class="carousel-caption">				
+			<figure>
+			<h1 style="font-size: 50px;color: #fff; font-weight:bolder;">Prashant Maurya &amp; Associates</h1>
+			<figcaption>
+			<p style="font-size: 20px;">Sharing Expertise Building Relationships.</p>
+			</figcaption>
+			</figure>
+
+
+      </div>
+       <a href="javascript:void(0);" class="dropDown" data-target="mainBlock"></a>
+
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+
+
